@@ -1,10 +1,10 @@
 # S3DG-network-keras
 Unofficial Keras implementation of the S3DG network for action recognition. Also available Distilled weights from D3D.
 
-Models with pretrained weigths retrieved from [Google Drive](https://drive.google.com/drive/folders/1Yb-g-Ae_B4tyM7N7bk0kRd2r5ChO-oa3?usp=sharing) [Original Paper and Code](https://www.jonathancstroud.com/d3d) 
+Models with pretrained weigths retrieved from [Google Drive](https://drive.google.com/drive/folders/1Yb-g-Ae_B4tyM7N7bk0kRd2r5ChO-oa3?usp=sharing) and [Original Paper and Code](https://www.jonathancstroud.com/d3d) 
 
 
-"Rethinking spatiotemporal feature learning: Speed-accuracy trade-offs in video classification."
+"Rethinking spatiotemporal feature learning: Speed-accuracy trade-offs in video classification."  
 _Xie, S., Sun, C., Huang, J., Tu, Z., & Murphy, K._ 
 [arXiv 2018](https://arxiv.org/pdf/1712.04851.pdf)
 

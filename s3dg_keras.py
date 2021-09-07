@@ -374,7 +374,9 @@ def s3dg(inputs,
     net = s3dg_base(inputs, first_temporal_kernel_size, temporal_conv_startat, gating_startat, final_endpoint)
     if include_top:
         # Classification block
-        x = layers.AveragePooling3D((2, 7, 7), strides=(1, 1, 1), padding='valid', name='global_avg_pool')(net)
+        h = int(net.shape[2])
+        w = int(net.shape[3])
+        x = layers.AveragePooling3D((2, h, w), strides=(1, 1, 1), padding='valid', name='global_avg_pool')(net)
         x = layers.Dropout(dropout_prob)(x)
 
         x = layers.Conv3D(num_classes, (1, 1, 1),  
